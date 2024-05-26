@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+da6df64559d98f1d2a17db67fec7cff7 test.pb.cc

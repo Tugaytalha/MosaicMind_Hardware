@@ -1,0 +1,4 @@
+/home/tugay/rpi_test/cmake/build/CMakeFiles/hw_grpc_proto.dir
+/home/tugay/rpi_test/cmake/build/CMakeFiles/receiver.dir
+/home/tugay/rpi_test/cmake/build/CMakeFiles/edit_cache.dir
+/home/tugay/rpi_test/cmake/build/CMakeFiles/rebuild_cache.dir

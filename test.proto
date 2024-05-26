@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+package mosaic;
+
+message ImageAndTextChunk {
+  bytes chunk_data = 1;
+  string text = 2;
+}
+
+message TextResponse {
+  string output_text = 1;
+}
+
+// New message for sending the model file chunk
+message ModelChunk {
+  bytes chunk_data = 1;
+}
+
+// Message for sending an integer value
+message IntValue {
+  int32 value = 1;
+}
+
+service YourService {
+  rpc ProcessImageAndText(stream ImageAndTextChunk) returns (TextResponse);
+  rpc TrainModel(stream ImageAndTextChunk) returns (TextResponse);
+  // New streaming RPC method for sending the model file
+  rpc SendModelStream(google.protobuf.Empty) returns (stream ModelChunk) {}
+  rpc SendIntValue(google.protobuf.Empty) returns (IntValue) {}
+  rpc ReceiveModelStream (stream ModelChunk) returns (google.protobuf.Empty);
+}
