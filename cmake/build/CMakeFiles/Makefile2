@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tugay/rpi_test
+CMAKE_SOURCE_DIR = /home/alierdem/rpi_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tugay/rpi_test/cmake/build
+CMAKE_BINARY_DIR = /home/alierdem/rpi_test/cmake/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/receiver.dir/clean
 CMakeFiles/hw_grpc_proto.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tugay/rpi_test/cmake/build/CMakeFiles --progress-num=1,2,3,4 "Built target hw_grpc_proto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alierdem/rpi_test/cmake/build/CMakeFiles --progress-num=1,2,3,4 "Built target hw_grpc_proto"
 .PHONY : CMakeFiles/hw_grpc_proto.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hw_grpc_proto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tugay/rpi_test/cmake/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alierdem/rpi_test/cmake/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hw_grpc_proto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tugay/rpi_test/cmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alierdem/rpi_test/cmake/build/CMakeFiles 0
 .PHONY : CMakeFiles/hw_grpc_proto.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/hw_grpc_proto.dir/clean:
 CMakeFiles/receiver.dir/all: CMakeFiles/hw_grpc_proto.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tugay/rpi_test/cmake/build/CMakeFiles --progress-num=5,6 "Built target receiver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alierdem/rpi_test/cmake/build/CMakeFiles --progress-num=5,6 "Built target receiver"
 .PHONY : CMakeFiles/receiver.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/receiver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tugay/rpi_test/cmake/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alierdem/rpi_test/cmake/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/receiver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tugay/rpi_test/cmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alierdem/rpi_test/cmake/build/CMakeFiles 0
 .PHONY : CMakeFiles/receiver.dir/rule
 
 # Convenience name for target.

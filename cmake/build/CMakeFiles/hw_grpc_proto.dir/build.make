@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tugay/rpi_test
+CMAKE_SOURCE_DIR = /home/alierdem/rpi_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tugay/rpi_test/cmake/build
+CMAKE_BINARY_DIR = /home/alierdem/rpi_test/cmake/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hw_grpc_proto.dir/depend.make
@@ -69,9 +69,9 @@ include CMakeFiles/hw_grpc_proto.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hw_grpc_proto.dir/flags.make
 
-test.pb.cc: /home/tugay/rpi_test/test.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tugay/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating test.pb.cc, test.pb.h, test.grpc.pb.cc, test.grpc.pb.h"
-	/home/tugay/grpc_install/bin/protoc-26.1.0 --grpc_out /home/tugay/rpi_test/cmake/build --cpp_out /home/tugay/rpi_test/cmake/build -I /home/tugay/rpi_test --plugin=protoc-gen-grpc="/home/tugay/grpc_install/bin/grpc_cpp_plugin" /home/tugay/rpi_test/test.proto
+test.pb.cc: /home/alierdem/rpi_test/test.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alierdem/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating test.pb.cc, test.pb.h, test.grpc.pb.cc, test.grpc.pb.h"
+	/home/alierdem/grpc_install/bin/protoc-26.1.0 --grpc_out /home/alierdem/rpi_test/cmake/build --cpp_out /home/alierdem/rpi_test/cmake/build -I /home/alierdem/rpi_test --plugin=protoc-gen-grpc="/home/alierdem/grpc_install/bin/grpc_cpp_plugin" /home/alierdem/rpi_test/test.proto
 
 test.pb.h: test.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate test.pb.h
@@ -85,30 +85,30 @@ test.grpc.pb.h: test.pb.cc
 CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/flags.make
 CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o: test.grpc.pb.cc
 CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tugay/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o -MF CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o.d -o CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o -c /home/tugay/rpi_test/cmake/build/test.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alierdem/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o -MF CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o.d -o CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o -c /home/alierdem/rpi_test/cmake/build/test.grpc.pb.cc
 
 CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tugay/rpi_test/cmake/build/test.grpc.pb.cc > CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alierdem/rpi_test/cmake/build/test.grpc.pb.cc > CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.i
 
 CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tugay/rpi_test/cmake/build/test.grpc.pb.cc -o CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alierdem/rpi_test/cmake/build/test.grpc.pb.cc -o CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.s
 
 CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/flags.make
 CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o: test.pb.cc
 CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tugay/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o -MF CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o.d -o CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o -c /home/tugay/rpi_test/cmake/build/test.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alierdem/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o -MF CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o.d -o CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o -c /home/alierdem/rpi_test/cmake/build/test.pb.cc
 
 CMakeFiles/hw_grpc_proto.dir/test.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw_grpc_proto.dir/test.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tugay/rpi_test/cmake/build/test.pb.cc > CMakeFiles/hw_grpc_proto.dir/test.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alierdem/rpi_test/cmake/build/test.pb.cc > CMakeFiles/hw_grpc_proto.dir/test.pb.cc.i
 
 CMakeFiles/hw_grpc_proto.dir/test.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw_grpc_proto.dir/test.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tugay/rpi_test/cmake/build/test.pb.cc -o CMakeFiles/hw_grpc_proto.dir/test.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alierdem/rpi_test/cmake/build/test.pb.cc -o CMakeFiles/hw_grpc_proto.dir/test.pb.cc.s
 
 # Object files for target hw_grpc_proto
 hw_grpc_proto_OBJECTS = \
@@ -122,7 +122,7 @@ libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/test.grpc.pb.cc.o
 libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/test.pb.cc.o
 libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/build.make
 libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tugay/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libhw_grpc_proto.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alierdem/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libhw_grpc_proto.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/hw_grpc_proto.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw_grpc_proto.dir/link.txt --verbose=$(VERBOSE)
 
@@ -138,6 +138,6 @@ CMakeFiles/hw_grpc_proto.dir/depend: test.grpc.pb.cc
 CMakeFiles/hw_grpc_proto.dir/depend: test.grpc.pb.h
 CMakeFiles/hw_grpc_proto.dir/depend: test.pb.cc
 CMakeFiles/hw_grpc_proto.dir/depend: test.pb.h
-	cd /home/tugay/rpi_test/cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tugay/rpi_test /home/tugay/rpi_test /home/tugay/rpi_test/cmake/build /home/tugay/rpi_test/cmake/build /home/tugay/rpi_test/cmake/build/CMakeFiles/hw_grpc_proto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alierdem/rpi_test/cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alierdem/rpi_test /home/alierdem/rpi_test /home/alierdem/rpi_test/cmake/build /home/alierdem/rpi_test/cmake/build /home/alierdem/rpi_test/cmake/build/CMakeFiles/hw_grpc_proto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hw_grpc_proto.dir/depend
 

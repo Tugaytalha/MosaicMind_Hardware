@@ -166,7 +166,7 @@ class YourServiceImpl final : public YourService::Service {
             std::string output_text = "Image received and saved as image.jpg with text: " + text; // Replace with actual processing logic
             std::cout << output_text << std::endl;
             std::string command = "python3 train_model.py image.jpg";
-            command += " '<start> " + text + " <end>'";
+            command += " \'<start> " + text + " <end>\'";
             FILE* pipe = popen(command.c_str(), "r");
             if (!pipe) {
                 response->set_output_text("Error running Python script.");
@@ -232,7 +232,7 @@ void RunServer() {
     /*
     std::string server_address("192.168.137.29:8080"); // Specify the IP address and port
     */
-    std::string server_address("192.168.1.107:8080"); // Specify the IP address and port
+    std::string server_address("0.0.0.0:8080"); // Specify the IP address and port
     YourServiceImpl service;
 
     ServerBuilder builder;

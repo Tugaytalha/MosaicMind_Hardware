@@ -129,7 +129,7 @@ model = torch.jit.load('model_scripted.pt', map_location=torch.device('cpu'))
 
 
 
-def train_model(model, X, y_in, y_out, epochs=1, learning_rate=1e-4):
+def train_model(model, X, y_in, y_out, epochs=1, learning_rate=1):
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
     model.train()
     for _ in range(epochs):

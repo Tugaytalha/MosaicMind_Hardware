@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tugay/rpi_test/cmake/build/receiver.cc" "CMakeFiles/receiver.dir/receiver.cc.o" "gcc" "CMakeFiles/receiver.dir/receiver.cc.o.d"
+  "/home/alierdem/rpi_test/cmake/build/receiver.cc" "CMakeFiles/receiver.dir/receiver.cc.o" "gcc" "CMakeFiles/receiver.dir/receiver.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/tugay/rpi_test/cmake/build/CMakeFiles/hw_grpc_proto.dir/DependInfo.cmake"
+  "/home/alierdem/rpi_test/cmake/build/CMakeFiles/hw_grpc_proto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

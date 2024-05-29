@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCARES_STATICLIB
 
-CXX_INCLUDES = -I/home/tugay/rpi_test/cmake/build -isystem /home/tugay/grpc_install/include
+CXX_INCLUDES = -I/home/alierdem/rpi_test/cmake/build -isystem /home/alierdem/grpc_install/include
 
 CXX_FLAGS = 
 

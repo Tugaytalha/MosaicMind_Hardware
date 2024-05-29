@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tugay/rpi_test
+CMAKE_SOURCE_DIR = /home/alierdem/rpi_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tugay/rpi_test/cmake/build
+CMAKE_BINARY_DIR = /home/alierdem/rpi_test/cmake/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/receiver.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/receiver.dir/flags.make
 CMakeFiles/receiver.dir/receiver.cc.o: CMakeFiles/receiver.dir/flags.make
 CMakeFiles/receiver.dir/receiver.cc.o: receiver.cc
 CMakeFiles/receiver.dir/receiver.cc.o: CMakeFiles/receiver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tugay/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/receiver.dir/receiver.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/receiver.dir/receiver.cc.o -MF CMakeFiles/receiver.dir/receiver.cc.o.d -o CMakeFiles/receiver.dir/receiver.cc.o -c /home/tugay/rpi_test/cmake/build/receiver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alierdem/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/receiver.dir/receiver.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/receiver.dir/receiver.cc.o -MF CMakeFiles/receiver.dir/receiver.cc.o.d -o CMakeFiles/receiver.dir/receiver.cc.o -c /home/alierdem/rpi_test/cmake/build/receiver.cc
 
 CMakeFiles/receiver.dir/receiver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/receiver.dir/receiver.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tugay/rpi_test/cmake/build/receiver.cc > CMakeFiles/receiver.dir/receiver.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alierdem/rpi_test/cmake/build/receiver.cc > CMakeFiles/receiver.dir/receiver.cc.i
 
 CMakeFiles/receiver.dir/receiver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/receiver.dir/receiver.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tugay/rpi_test/cmake/build/receiver.cc -o CMakeFiles/receiver.dir/receiver.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alierdem/rpi_test/cmake/build/receiver.cc -o CMakeFiles/receiver.dir/receiver.cc.s
 
 # Object files for target receiver
 receiver_OBJECTS = \
@@ -93,105 +93,105 @@ receiver_EXTERNAL_OBJECTS =
 receiver: CMakeFiles/receiver.dir/receiver.cc.o
 receiver: CMakeFiles/receiver.dir/build.make
 receiver: libhw_grpc_proto.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_parse.a
-receiver: /home/tugay/grpc_install/lib/libgrpc++_reflection.a
-receiver: /home/tugay/grpc_install/lib/libgrpc++.a
-receiver: /home/tugay/grpc_install/lib/libprotobuf.a
-receiver: /home/tugay/grpc_install/lib/libgrpc.a
-receiver: /home/tugay/grpc_install/lib/libupb_json_lib.a
-receiver: /home/tugay/grpc_install/lib/libupb_textformat_lib.a
-receiver: /home/tugay/grpc_install/lib/libutf8_range_lib.a
-receiver: /home/tugay/grpc_install/lib/libupb_message_lib.a
-receiver: /home/tugay/grpc_install/lib/libupb_base_lib.a
-receiver: /home/tugay/grpc_install/lib/libupb_mem_lib.a
-receiver: /home/tugay/grpc_install/lib/libre2.a
-receiver: /home/tugay/grpc_install/lib/libz.a
-receiver: /home/tugay/grpc_install/lib/libcares.a
-receiver: /home/tugay/grpc_install/lib/libgpr.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_distributions.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_seed_sequences.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_internal_pool_urbg.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_internal_randen.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_internal_randen_hwaes.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_internal_randen_hwaes_impl.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_internal_randen_slow.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_internal_platform.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_internal_seed_material.a
-receiver: /home/tugay/grpc_install/lib/libabsl_random_seed_gen_exception.a
-receiver: /home/tugay/grpc_install/lib/libssl.a
-receiver: /home/tugay/grpc_install/lib/libcrypto.a
-receiver: /home/tugay/grpc_install/lib/libaddress_sorting.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_check_op.a
-receiver: /home/tugay/grpc_install/lib/libabsl_leak_check.a
-receiver: /home/tugay/grpc_install/lib/libabsl_die_if_null.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_conditions.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_message.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_nullguard.a
-receiver: /home/tugay/grpc_install/lib/libabsl_examine_stack.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_format.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_proto.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_log_sink_set.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_sink.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_entry.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_initialize.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_globals.a
-receiver: /home/tugay/grpc_install/lib/libabsl_vlog_config_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_fnmatch.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_internal_globals.a
-receiver: /home/tugay/grpc_install/lib/libabsl_statusor.a
-receiver: /home/tugay/grpc_install/lib/libabsl_status.a
-receiver: /home/tugay/grpc_install/lib/libabsl_strerror.a
-receiver: /home/tugay/grpc_install/lib/libutf8_validity.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_usage.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_usage_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_marshalling.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_reflection.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_config.a
-receiver: /home/tugay/grpc_install/lib/libabsl_cord.a
-receiver: /home/tugay/grpc_install/lib/libabsl_cordz_info.a
-receiver: /home/tugay/grpc_install/lib/libabsl_cord_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_cordz_functions.a
-receiver: /home/tugay/grpc_install/lib/libabsl_cordz_handle.a
-receiver: /home/tugay/grpc_install/lib/libabsl_crc_cord_state.a
-receiver: /home/tugay/grpc_install/lib/libabsl_crc32c.a
-receiver: /home/tugay/grpc_install/lib/libabsl_str_format_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_crc_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_crc_cpu_detect.a
-receiver: /home/tugay/grpc_install/lib/libabsl_raw_hash_set.a
-receiver: /home/tugay/grpc_install/lib/libabsl_hash.a
-receiver: /home/tugay/grpc_install/lib/libabsl_bad_variant_access.a
-receiver: /home/tugay/grpc_install/lib/libabsl_city.a
-receiver: /home/tugay/grpc_install/lib/libabsl_low_level_hash.a
-receiver: /home/tugay/grpc_install/lib/libabsl_hashtablez_sampler.a
-receiver: /home/tugay/grpc_install/lib/libabsl_exponential_biased.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_private_handle_accessor.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_commandlineflag.a
-receiver: /home/tugay/grpc_install/lib/libabsl_bad_optional_access.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_commandlineflag_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_flags_program_name.a
-receiver: /home/tugay/grpc_install/lib/libabsl_synchronization.a
-receiver: /home/tugay/grpc_install/lib/libabsl_graphcycles_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_kernel_timeout_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_time.a
-receiver: /home/tugay/grpc_install/lib/libabsl_civil_time.a
-receiver: /home/tugay/grpc_install/lib/libabsl_time_zone.a
-receiver: /home/tugay/grpc_install/lib/libabsl_stacktrace.a
-receiver: /home/tugay/grpc_install/lib/libabsl_symbolize.a
-receiver: /home/tugay/grpc_install/lib/libabsl_strings.a
-receiver: /home/tugay/grpc_install/lib/libabsl_strings_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_string_view.a
-receiver: /home/tugay/grpc_install/lib/libabsl_int128.a
-receiver: /home/tugay/grpc_install/lib/libabsl_throw_delegate.a
-receiver: /home/tugay/grpc_install/lib/libabsl_malloc_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_debugging_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_demangle_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_base.a
-receiver: /home/tugay/grpc_install/lib/libabsl_raw_logging_internal.a
-receiver: /home/tugay/grpc_install/lib/libabsl_log_severity.a
-receiver: /home/tugay/grpc_install/lib/libabsl_spinlock_wait.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_parse.a
+receiver: /home/alierdem/grpc_install/lib/libgrpc++_reflection.a
+receiver: /home/alierdem/grpc_install/lib/libgrpc++.a
+receiver: /home/alierdem/grpc_install/lib/libprotobuf.a
+receiver: /home/alierdem/grpc_install/lib/libgrpc.a
+receiver: /home/alierdem/grpc_install/lib/libupb_json_lib.a
+receiver: /home/alierdem/grpc_install/lib/libupb_textformat_lib.a
+receiver: /home/alierdem/grpc_install/lib/libutf8_range_lib.a
+receiver: /home/alierdem/grpc_install/lib/libupb_message_lib.a
+receiver: /home/alierdem/grpc_install/lib/libupb_base_lib.a
+receiver: /home/alierdem/grpc_install/lib/libupb_mem_lib.a
+receiver: /home/alierdem/grpc_install/lib/libre2.a
+receiver: /home/alierdem/grpc_install/lib/libz.a
+receiver: /home/alierdem/grpc_install/lib/libcares.a
+receiver: /home/alierdem/grpc_install/lib/libgpr.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_distributions.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_seed_sequences.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_internal_pool_urbg.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_internal_randen.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_internal_randen_hwaes.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_internal_randen_hwaes_impl.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_internal_randen_slow.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_internal_platform.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_internal_seed_material.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_random_seed_gen_exception.a
+receiver: /home/alierdem/grpc_install/lib/libssl.a
+receiver: /home/alierdem/grpc_install/lib/libcrypto.a
+receiver: /home/alierdem/grpc_install/lib/libaddress_sorting.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_check_op.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_leak_check.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_die_if_null.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_conditions.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_message.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_nullguard.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_examine_stack.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_format.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_proto.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_log_sink_set.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_sink.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_entry.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_initialize.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_globals.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_vlog_config_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_fnmatch.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_internal_globals.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_statusor.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_status.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_strerror.a
+receiver: /home/alierdem/grpc_install/lib/libutf8_validity.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_usage.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_usage_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_marshalling.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_reflection.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_config.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_cord.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_cordz_info.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_cord_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_cordz_functions.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_cordz_handle.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_crc_cord_state.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_crc32c.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_str_format_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_crc_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_crc_cpu_detect.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_raw_hash_set.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_hash.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_bad_variant_access.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_city.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_low_level_hash.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_hashtablez_sampler.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_exponential_biased.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_private_handle_accessor.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_commandlineflag.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_bad_optional_access.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_commandlineflag_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_flags_program_name.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_synchronization.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_graphcycles_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_kernel_timeout_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_time.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_civil_time.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_time_zone.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_stacktrace.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_symbolize.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_strings.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_strings_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_string_view.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_int128.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_throw_delegate.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_malloc_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_debugging_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_demangle_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_base.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_raw_logging_internal.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_log_severity.a
+receiver: /home/alierdem/grpc_install/lib/libabsl_spinlock_wait.a
 receiver: CMakeFiles/receiver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tugay/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable receiver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alierdem/rpi_test/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable receiver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/receiver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,6 +203,6 @@ CMakeFiles/receiver.dir/clean:
 .PHONY : CMakeFiles/receiver.dir/clean
 
 CMakeFiles/receiver.dir/depend:
-	cd /home/tugay/rpi_test/cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tugay/rpi_test /home/tugay/rpi_test /home/tugay/rpi_test/cmake/build /home/tugay/rpi_test/cmake/build /home/tugay/rpi_test/cmake/build/CMakeFiles/receiver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alierdem/rpi_test/cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alierdem/rpi_test /home/alierdem/rpi_test /home/alierdem/rpi_test/cmake/build /home/alierdem/rpi_test/cmake/build /home/alierdem/rpi_test/cmake/build/CMakeFiles/receiver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/receiver.dir/depend
 
