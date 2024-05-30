@@ -24,7 +24,7 @@ Make sure to have the conda environment with the necessary dependencies activate
 There needs to be a model file named `model_scripted.pt.` This cannot be uploaded to GitHub due to its size. You can request this file by opening an issue on the GitHub page.
 
 ## Compilation
-If you run this code on the Raspberry Pi, recompilation may not be necessary. You may skip to running the program. Compilation is done via:
+If you run this code on the Raspberry Pi, recompilation may not be necessary. You may skip to [running the program](#running-the-program). Compilation is done via:
 
 ```bash
 make -j 4
