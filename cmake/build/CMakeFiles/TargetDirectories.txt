@@ -1,0 +1,4 @@
+/home/alierdem/Desktop/newest/rpi_test/cmake/build/CMakeFiles/hw_grpc_proto.dir
+/home/alierdem/Desktop/newest/rpi_test/cmake/build/CMakeFiles/receiver.dir
+/home/alierdem/Desktop/newest/rpi_test/cmake/build/CMakeFiles/edit_cache.dir
+/home/alierdem/Desktop/newest/rpi_test/cmake/build/CMakeFiles/rebuild_cache.dir
