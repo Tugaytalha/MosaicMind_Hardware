@@ -1,6 +1,7 @@
 # Setup Guide
 
 **Note:** This code was tested on Raspberry Pi OS (64-bit). Compatibility with other platforms/versions is not guaranteed.
+**Note:** To be able to receive/send data from/to mobile devices and the main server, they need to be connected to the same network.
 
 ## Install Dependencies
 
@@ -15,7 +16,7 @@ on Raspberry Pi 3. If you create an issue on GitHub, we may reach out to you wit
 ### Python dependencies
 You may install the Python related dependencies from [here](https://github.com/Tugaytalha/MosaicMind_AI).
 - Download `install_dependencies.sh`.
-- Follow the steps in the README. Change `source ~/.bashrc` depending on the shell you are using.
+- Follow the steps in the README. Change `source ~/.bashrc` depending on the shell you are using (or just restart the terminal).
 
 Make sure to have the conda environment with the necessary dependencies activated before running the program.
 
@@ -31,7 +32,7 @@ make -j 4
 ```
 
 This command will probably not work because you need to regenerate the CMake files. To do so:
-1. Delete the contents of the build directory except for `receiver.cc`, `generate_caption.py` and `train_model.py`.
+1. Delete the contents of the `build` directory EXCEPT FOR `receiver.cc`, `word_to_idx.txt`, `generate_caption.py` and `train_model.py`.
 2. Inside the `build` directory, run:
 ```bash
 cmake -DCMAKE_PREFIX_PATH=$MY_INSTALL_DIR ../..
@@ -41,12 +42,11 @@ Replace `$MY_INSTALL_DIR` with the name of the environment variable that holds t
 After running the above command, run the previous two commands again:
 ```bash
 make -j 4
-bash compile.sh
 ```
 
 ## Running the program
 
-Make sure all the devices with the IP addresses in the code are running the `receiver` program. Then run the program via the command:
+Make sure . Then run the program via the command:
 ```bash
 ./receiver
 ```
