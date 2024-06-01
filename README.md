@@ -2,7 +2,7 @@
 
 **Note:** This code was tested on Raspberry Pi OS (64-bit). Compatibility with other platforms/versions is not guaranteed.
 
-**Note:** To be able to receive/send fata from/to the mobile devices and the main server, they need to be connected to the same network.
+**Note:** To be able to receive/send data from/to the mobile devices and the main server, they need to be connected to the same network.
 
 ## Install Dependencies
 
