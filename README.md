@@ -44,7 +44,6 @@ Replace `$MY_INSTALL_DIR` with the name of the environment variable that holds t
 After running the above command, run the previous two commands again:
 ```bash
 make -j 4
-bash compile.sh
 ```
 
 ## Running the program
