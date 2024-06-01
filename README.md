@@ -8,20 +8,23 @@
 Install by following the instructions on this website: [gRPC C++ Quickstart](https://grpc.io/docs/languages/cpp/quickstart/)
 
 **Note:** Depending on your Raspberry Pi model, compiling may take from several hours to almost an entire day. We have a build that works
-on Raspberry Pi 3. If you create an issue on GitHub, we may reach out to you with the zip file.
+on Raspberry Pi 3. You can download this build [from here](https://drive.google.com/drive/folders/1wNT5VdHWdcsYvGWe4A7uxwNhLR30y61z). After downloading,
+just unzip it wherever you want on your computer and create and environment variable that holds the path to that unzipped directory (you can do that using the `export` command like shown in the gRPC website).
+Don't forget to also add the `bin` directory within the installation directory to your PATH like shown in the gRPC website. For convenience, you may add these exports to your `.bashrc` (or equivalent).
 
 > **Recommendation:** Choose an installation path other than the `.local` directory to make it easier to remove later.
 
 ### Python dependencies
 You may install the Python related dependencies from [here](https://github.com/Tugaytalha/MosaicMind_AI).
 - Download `install_dependencies.sh`.
-- Follow the steps in the README. Change `source ~/.bashrc` depending on the shell you are using.
+- Follow the steps in the README. Change `source ~/.bashrc` depending on the shell you are using (or just restart the terminal).
 
-Make sure to have the conda environment with the necessary dependencies activated before running the program.
+**IMPORTANT:** Don't forget to activate the conda environment with the necessary dependencies before running the `receiver` program.
 
 ## Model File
 
-There needs to be a model file named `model_scripted.pt.` This cannot be uploaded to GitHub due to its size. You can request this file by opening an issue on the GitHub page.
+There needs to be a model file named `model_scripted.pt`. This cannot be uploaded to GitHub due to its size. You can download this file [from here](https://drive.google.com/drive/folders/1wNT5VdHWdcsYvGWe4A7uxwNhLR30y61z).
+This file needs the be in the `cmake/build` directory.
 
 ## Compilation
 If you run this code on the Raspberry Pi, recompilation may not be necessary. You may skip to [running the program](#running-the-program). Compilation is done via:
